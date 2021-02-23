@@ -210,3 +210,8 @@ body {
 .how-to {
     background-color:  navy;
 }
+
+.about {
+    background-color: orangered;
+    height: 40%
+}
