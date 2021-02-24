@@ -215,3 +215,78 @@ body {
     background-color: orangered;
     height: 40%
 }
+
+.info-tab {
+    background-color: white;
+    height: 75%;
+    
+    border-color: #0159F4;
+    border-width: thick;
+    border-style: solid;
+}
+
+.title-bar {
+    background-color: #0159F4;
+    margin-top: -21px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;  
+    white-space: nowrap;
+    
+}
+
+.folder {
+    margin-top: 5%;
+    margin-left: 15%;
+    background-color: bisque;
+    border-style: none;
+    height: 5%;
+    width: 125px;
+    align-content: center;
+    
+}
+
+.left-pane {
+    border-color: #0159F4;
+    border-width: thick;
+    border-style: solid;
+    float: left;
+    height: 94%;
+    margin-top: -24px;
+    width: 25%;
+    
+}
+
+.def-folder {
+    margin-top: 15%;
+    margin-left: 5%;
+    background-color: bisque;
+    border-style: none;
+    height: 5%;
+    width: 125px;
+    align-content: center;
+}
+
+.title-close {
+    float: right;
+    display: inline-block;
+}
+
+.content-image {
+    float: right;
+    margin-top: -15%;
+    margin-right: 3%;
+    display: inline-block;
+    
+}
+
+.content-p {
+    color: black;
+    margin-left: 28%;
+    width: 35%;
+    white-space: inherit;
+}
+
+.content-title {
+    margin-left: 27%;
+}

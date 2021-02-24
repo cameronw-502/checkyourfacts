@@ -16,6 +16,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -30,6 +32,7 @@
         <h1 class="info-header">What is Fake News?</h1>
          <p style="margin: 5%; text-align:center;">Fake news is false or misleading information presented as news. It often has the aim of damaging the reputation of a person or entity, or making money through advertising revenue. Fake news can be very difficult to decipher. Follow along to see how you can tell what is fact or fiction.</p>
     </div>
+<!--
     <div class="info">
         <h1 class="info-header">How does fake news effect you?</h1>
         
@@ -66,6 +69,31 @@
 </ul>
 
     
+    </div>
+-->
+    
+    <div class="info-tab">
+        <div class="title-bar">
+            <h1 class="info-header-folder" style="display: inline-block;">How does fake news affect you?</h1>
+            <img class="title-close" src="img/close.png">
+        </div>
+        
+        <div class="left-pane">
+            <button class="def-folder" onclick="def()">Documents</button><br>
+            <button class="folder" onclick="health()">Health</button><br>
+            <button class="folder" onclick="grades()">Grades</button><br>
+            <button class="folder" onclick="truth()">Harder to see the truth</button><br>
+            <button class="folder" onclick="illusory()">Illusory Effect</button><br>
+            <button class="folder" onclick="career()">Career</button><br>
+            <button class="folder" onclick="perception()">Perception</button><br>
+            <button class="folder" onclick="politics()">Politics</button>
+        </div>
+        
+        <div class="content-pane">
+            <h1 class="content-title" id="title">Choose a folder to the left. </h1>
+            <p class="content-p" id="content"></p>
+            <img class="content-image" id="content-image" height=500px; width= 500px;>
+        </div>
     </div>
     
     <div class="how-to">
