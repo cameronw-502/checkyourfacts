@@ -1,42 +1,43 @@
-
-body,html {
-    height: 100%;
-    background-color: #364652;
-    margin: 0px;
+body,
+html {
+  height: 100%;
+  background-color: #364652;
+  margin: 0px;
 }
 .header-bar {
-    text-align: center;
-    
-    height: 500px;
+  text-align: center;
+
+  height: 500px;
 }
 
-.header-image{
-    height: 100%;
-    width: 100%;
+.header-image {
+  height: 100%;
+  width: 100%;
 }
 
 .header {
-    font-family: 'Bebas Neue', cursive;
-    font-size: 550%;
-    color: #EEE5E9;
+  font-family: "Bebas Neue", cursive;
+  font-size: 550%;
+  color: #eee5e9;
 }
 
-.sub-header { 
-    font-family: 'Barlow Condensed', sans-serif;
-    color: #EEE5E9;
-    font-size: 300%;
-    margin-top: -4%    
+.sub-header {
+  font-family: "Barlow Condensed", sans-serif;
+  color: #eee5e9;
+  font-size: 300%;
+  margin-top: -4%;
 }
 
 p {
-    font-family: 'Barlow Semi Condensed', sans-serif;
-    color: #EEE5E9;
-    font-size: 200%;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  color: #eee5e9;
+  font-size: 200%;
 }
 
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/newspaper-header2.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/newspaper-header2.jpg");
 
   /* Set a specific height */
   height: 50%;
@@ -59,28 +60,25 @@ p {
 }
 
 .info-header {
-    text-align: center;
-    font-size: 250%;
-    font-family: 'Bebas Neue', cursive;
-    color: #EEE5E9;
-    transform: translate(0%, 61%);
-    
+  text-align: center;
+  font-size: 250%;
+  font-family: "Bebas Neue", cursive;
+  color: #eee5e9;
+  transform: translate(0%, 61%);
 }
 
 .info {
-    background-color: #364652;
-    height: 75%;
-    
+  background-color: #364652;
+  height: 75%;
 }
 
-
-
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
 body {
-  font-family: 'Montserrat', sans-serif;
-  
+  font-family: "Montserrat", sans-serif;
 }
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 .honeycomb {
@@ -125,10 +123,13 @@ body {
   object-fit: cover;
   object-position: center;
 }
-.honeycomb-cell::before, .honeycomb-cell::after {
-  content: '';
+.honeycomb-cell::before,
+.honeycomb-cell::after {
+  content: "";
 }
-.honeycomb-cell::before, .honeycomb-cell::after, .honeycomb-cell__image {
+.honeycomb-cell::before,
+.honeycomb-cell::after,
+.honeycomb-cell__image {
   top: -50%;
   left: 0;
   width: 100%;
@@ -151,7 +152,7 @@ body {
   opacity: 0;
 }
 .honeycomb-cell:hover::before {
-  background: #F40076;
+  background: #f40076;
 }
 .honeycomb-cell:hover::after {
   opacity: 0;
@@ -175,7 +176,7 @@ body {
 .row:after {
   content: "";
   display: table;
-  clear: both
+  clear: both;
 }
 
 /* 2/3 column */
@@ -202,91 +203,100 @@ body {
 }
 
 .small-header {
-    font-family: 'Bebas Neue', cursive;
-    font-size: 225%;
-    color: #EEEfE9;
+  font-family: "Bebas Neue", cursive;
+  font-size: 225%;
+  color: #eeefe9;
 }
 
 .how-to {
-    background-color:  navy;
+  background-color: navy;
 }
 
 .about {
-    background-color: orangered;
-    height: 40%
+  background-color: orangered;
+  height: 60%;
+  margin-bottom: 60px;
 }
 
 .info-tab {
-    background-color: white;
-    height: 75%;
-    
-    border-color: #0159F4;
-    border-width: thick;
-    border-style: solid;
+  background-color: white;
+  height: 75%;
+
+  border-color: #0159f4;
+  border-width: thick;
+  border-style: solid;
 }
 
 .title-bar {
-    background-color: #0159F4;
-    margin-top: -21px;
-    color: white;
-    font-family: 'Poppins', sans-serif;
-    font-size: 15px;  
-    white-space: nowrap;
-    
+  background-color: #0159f4;
+  margin-top: -21px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  white-space: nowrap;
 }
 
 .folder {
-    margin-top: 5%;
-    margin-left: 15%;
-    background-color: bisque;
-    border-style: none;
-    height: 5%;
-    width: 125px;
-    align-content: center;
-    
+  margin-top: 5%;
+  margin-left: 15%;
+  background-color: bisque;
+  border-style: none;
+  height: 5%;
+  width: 125px;
+  align-content: center;
 }
 
 .left-pane {
-    border-color: #0159F4;
-    border-width: thick;
-    border-style: solid;
-    float: left;
-    height: 94%;
-    margin-top: -24px;
-    width: 25%;
-    
+  border-color: #0159f4;
+  border-width: thick;
+  border-style: solid;
+  float: left;
+  height: 94%;
+  margin-top: -24px;
+  width: 25%;
 }
 
 .def-folder {
-    margin-top: 15%;
-    margin-left: 5%;
-    background-color: bisque;
-    border-style: none;
-    height: 5%;
-    width: 125px;
-    align-content: center;
+  margin-top: 15%;
+  margin-left: 5%;
+  background-color: bisque;
+  border-style: none;
+  height: 5%;
+  width: 125px;
+  align-content: center;
 }
 
 .title-close {
-    float: right;
-    display: inline-block;
+  float: right;
+  display: inline-block;
 }
 
 .content-image {
-    float: right;
-    margin-top: -15%;
-    margin-right: 3%;
-    display: inline-block;
-    
+  margin-top: 13%;
+  margin-left: 5%;
 }
 
 .content-p {
-    color: black;
-    margin-left: 28%;
-    width: 35%;
-    white-space: inherit;
+  color: black;
+  white-space: inherit;
+  margin-left: 5%;
 }
 
 .content-title {
-    margin-left: 27%;
+  margin-left: 3%;
+}
+
+.content-pane {
+  border-style: solid;
+  width: 40%;
+  height: 92%;
+  float: left;
+}
+
+.content-right-pane {
+  border-style: solid;
+  float: left;
+  width: 35%;
+  height: 92%;
+  align-items: center;
 }
