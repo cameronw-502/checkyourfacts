@@ -416,3 +416,37 @@ body {
     margin-left: 45%;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .info-header {
+    font-size: 300%;
+  }
+  .info-text {
+    font-size: 125%;
+  }
+  .info-header-folder {
+    font-size: 125%;
+  }
+
+  .left-pane {
+    margin-top: 25%;
+  }
+  .content-pane {
+    margin-top: 25%;
+    float: left;
+    width: 60%;
+  }
+  .content-right-pane {
+    width: 0px;
+  }
+  .header {
+    font-size: 250%;
+  }
+
+  .sub-header {
+    font-size: 150%;
+  }
+  .how-to {
+    padding: none;
+  }
+}
