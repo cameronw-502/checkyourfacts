@@ -67,6 +67,14 @@ p {
   transform: translate(0%, 61%);
 }
 
+.quiz-header {
+  text-align: center;
+  font-size: 250%;
+  font-family: "Bebas Neue", cursive;
+  color: #eee5e9;
+  transform: translate(0%, 61%);
+}
+
 .info {
   background-color: #364652;
   height: 75%;
@@ -367,8 +375,44 @@ body {
 
 /* ----- Media Queries ----- */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1464px) {
   .content-right-pane {
-    visibility: hidden;
+    display: none;
+  }
+  .quiz-header {
+    width: 100%;
+    float: left;
+    margin-bottom: 5%;
+  }
+}
+
+@media screen and (max-width: 1464px) {
+  .header {
+    font-size: 350%;
+  }
+
+  .sub-header {
+    font-size: 250%;
+  }
+}
+
+@media screen and (max-width: 1107px) {
+  .info-header {
+    font-size: 300%;
+  }
+  .info-text {
+    font-size: 150%;
+  }
+
+  .content-pane {
+    width: 75%%;
+  }
+  .content-title {
+    font-size: 150%;
+    margin-left: 40%;
+  }
+  .content-p {
+    font-size: 100%;
+    margin-left: 45%;
   }
 }
