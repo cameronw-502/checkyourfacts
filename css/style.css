@@ -352,6 +352,10 @@ body {
   font-size: 15px;
 }
 
+.question-button:hover {
+  background-color: #808080;
+}
+
 .question-button-container {
   align-content: center;
 }
