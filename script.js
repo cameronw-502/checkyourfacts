@@ -62,4 +62,53 @@ function incorrect1() {
 function correct1() {
   document.getElementById("status1").src = "img/correct.png";
   document.getElementById("reason").innerHTML = "Great Job! That is correct.";
+  document.getElementById("correct1").style.backgroundColor = "#7ed957";
+  document.getElementById("incorrect1a").style.backgroundColor = "#dd2e44";
+  document.getElementById("incorrect1b").style.backgroundColor = "#dd2e44";
+  document.getElementById("incorrect1c").style.backgroundColor = "#dd2e44";
+}
+
+function incorrect2() {
+  document.getElementById("status2").src = "img/wrong.png";
+  document.getElementById("reason2").innerHTML =
+    "Your response is incorrect, try again!";
+}
+
+function correct2() {
+  document.getElementById("status2").src = "img/correct.png";
+  document.getElementById("reason2").innerHTML = "Great Job! That is correct.";
+  document.getElementById("correct2").style.backgroundColor = "#7ed957";
+  document.getElementById("incorrect2a").style.backgroundColor = "#dd2e44";
+  document.getElementById("incorrect2b").style.backgroundColor = "#dd2e44";
+  document.getElementById("incorrect2c").style.backgroundColor = "#dd2e44";
+}
+
+function incorrect3() {
+  document.getElementById("status3").src = "img/wrong.png";
+  document.getElementById("reason3").innerHTML =
+    "Your response is incorrect, try again!";
+}
+
+function correct3() {
+  document.getElementById("status3").src = "img/correct.png";
+  document.getElementById("reason3").innerHTML = "Great Job! That is correct.";
+  document.getElementById("correct3").style.backgroundColor = "#7ed957";
+  document.getElementById("incorrect3a").style.backgroundColor = "#dd2e44";
+  document.getElementById("incorrect3b").style.backgroundColor = "#dd2e44";
+  document.getElementById("incorrect3c").style.backgroundColor = "#dd2e44";
+}
+
+function incorrect4() {
+  document.getElementById("status4").src = "img/wrong.png";
+  document.getElementById("reason4").innerHTML =
+    "Your response is incorrect, try again!";
+}
+
+function correct4() {
+  document.getElementById("status4").src = "img/correct.png";
+  document.getElementById("reason4").innerHTML = "Great Job! That is correct.";
+  document.getElementById("correct4").style.backgroundColor = "#7ed957";
+  document.getElementById("incorrect4a").style.backgroundColor = "#dd2e44";
+  document.getElementById("incorrect4b").style.backgroundColor = "#dd2e44";
+  document.getElementById("incorrect4c").style.backgroundColor = "#dd2e44";
 }

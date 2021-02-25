@@ -186,10 +186,10 @@
                 <img class="status" id="status1" src="img/question.png" width="50px"; height="50px";>
                 <h1 class="question-header">By using a critical mindset, which of the following seems like false information?</h1>
                 <div class = "question-button-container">
-                  <button class="question-button" onclick="incorrect1()">Incorrect</button>
-                  <button class="question-button" onclick="incorrect1()">Incorrect</button>
-                  <button class="question-button" onclick="correct1()">In my opinion, aliens are real because my great grandmother told me so.</button>
-                  <button class="question-button" onclick="incorrect1()">Incorrect</button>
+                  <button class="question-button" id="incorrect1a" onclick="incorrect1()">Martians roaming the Red Planet would be taller, on average, than humans, concluded astronomer William Herschel in the 1870s.</button>
+                  <button class="question-button" id="incorrect1b" onclick="incorrect1()">Philosopher Immanuel Kant claimed that extra-terrestrial intelligence was perfectly proportional to their distance from the Sun, from idiotic Mercurians to ingenious Saturnians.</button>
+                  <button class="question-button" id="correct1" onclick="correct1()">In my opinion, aliens are real because my great grandmother told me so.</button>
+                  <button class="question-button" id="incorrect1c" onclick="incorrect1()">Astronomers estimate that 40 billion Earth-like planets could exist in the Milky Way. </button>
                 </div>
                 <p class="reason" id="reason">Choose a correct option.</p>
             </div>
@@ -200,16 +200,30 @@
 
       <div class="container">
         <div class="row">
-          <div class="column-33">
+          <div class="column-66">
             <h1 class="small-header">Check the Source</h1>
             <p>
               Checking sources can be a bit tricky using the internet. With some
               websites, like wikipedia.com, the sources are listed directly on
               the page.
             </p>
+            
+            
           </div>
-          <div class="column-66">
-            <img src="img/link.jpg" height="500px;" width="100%;" />
+          <div class="column-33">
+            <div class="quiz-container">
+              <div class="question1">
+                <img class="status" id="status2" src="img/question.png" width="50px"; height="50px";>
+                <h1 class="question-header">Which of the following is not factual source?</h1>
+                <div class = "question-button-container">
+                  <button class="question-button" id="incorrect2a" onclick="incorrect2()">www.irs.gov</button>
+                  <button class="question-button" id="incorrect2b" onclick="incorrect2()">www.schoolofdesign.edu</button>
+                  <button class="question-button" id="incorrect2c" onclick="incorrect2()">www.worldwideweb.net</button>
+                  <button class="question-button" id="correct2" onclick="correct2()">www.theearthisflat.com</button>
+                </div>
+                <p class="reason" id="reason2">Choose a correct option.</p>
+            </div>
+            </div>
           </div>
         </div>
       </div>
@@ -217,9 +231,6 @@
       <div class="container">
         <div class="row">
           <div class="column-66">
-            <img src="img/evidence.jpg" height="500px;" width="100%;" />
-          </div>
-          <div class="column-33">
             <h1 class="small-header">Examine Evidence</h1>
             <p>
               What makes a fact? Evidence! Ask for evidence to support
@@ -227,12 +238,28 @@
               until you find evidence.
             </p>
           </div>
+          <div class="column-33">
+            <div class="quiz-container">
+              <div class="question1">
+                <img class="status" id="status3" src="img/question.png" width="50px"; height="50px";>
+                <h1 class="question-header">Which of the following is correct based off of evidence?</h1>
+                <div class = "question-button-container">
+                  <button class="question-button" id="correct3" onclick="correct3()">As indicated in a 2018 study about rats, the tail of a rat maintains its body temperature.</button>
+                  <button class="question-button" id="incorrect3a" onclick="incorrect3()">Because my dog is a small dog, most people like small dogs over big dogs.</button>
+                  <button class="question-button" id="incorrect3b" onclick="incorrect3()">Most cats are indoor cats, because in the zipcode 40216, no cats were found outsize.</button>
+                  <button class="question-button" id="incorrect3c" onclick="incorrect3()">Snakes shed their skin 3 times a year, based off of 3 snakes at the Louisville Zoo.</button>
+                  
+                </div>
+                <p class="reason" id="reason3">Choose a correct option.</p>
+            </div>
+            </div>
+          </div>
         </div>
       </div>
 
       <div class="container">
         <div class="row">
-          <div class="column-33">
+          <div class="column-66">
             <h1 class="small-header">See who else is reporting the story</h1>
             <p>
               With the internet, anyone can upload a body of text. For example,
@@ -242,8 +269,21 @@
               sure they are legit.
             </p>
           </div>
-          <div class="column-66">
-            <img src="img/report.jpg" height="500px;" width="100%;" />
+          <div class="column-33">
+            <div class="quiz-container">
+              <div class="question1">
+                <img class="status" id="status4" src="img/question.png" width="50px"; height="50px";>
+                <h1 class="question-header">Which choice has the best chance of being factual information? </h1>
+                <div class = "question-button-container">
+                  <button class="question-button" id="incorrect4a" onclick="incorrect4()">An aricle with only one source listed.</button>
+                  <button class="question-button" id="correct4" onclick="correct4()">An article with supporting facts and 10+ sources listed. </button>
+                  <button class="question-button" id="incorrect4b" onclick="incorrect4()">An article with a few sources but has some facts without any information listed.</button>
+                  <button class="question-button" id="incorrect4c" onclick="incorrect4()">An article with no sources but has fancy graphics that makes it seem legit.</button>
+                  
+                </div>
+                <p class="reason" id="reason4">Choose a correct option.</p>
+            </div>
+            </div>
           </div>
         </div>
       </div>

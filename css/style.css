@@ -339,8 +339,8 @@ body {
 }
 
 .question-button {
-  background-color: #4caf50; /* Green background */
-  border: 1px solid green; /* Green border */
+  background-color: #464d4e; /* Green background */
+  border: 1px solid #464d4e; /* Green border */
   color: white; /* White text */
   padding: 10px 24px; /* Some padding */
   cursor: pointer; /* Pointer/hand icon */
@@ -349,6 +349,7 @@ body {
   margin-left: 15%;
   margin-right: 14%;
   margin-top: 6px;
+  font-size: 15px;
 }
 
 .question-button-container {
@@ -357,4 +358,5 @@ body {
 
 .reason {
   text-align: center;
+  margin-left: 15px;
 }
