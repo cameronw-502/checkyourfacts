@@ -367,7 +367,7 @@ body {
 
 /* ----- Media Queries ----- */
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 600px) {
   .content-right-pane {
     visibility: hidden;
   }
