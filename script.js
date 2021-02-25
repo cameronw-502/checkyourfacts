@@ -52,3 +52,14 @@ function politics() {
     "Many websites and news sources can direct informatoin towards a certain politicial party. When watching the news, make sure to research the topic more by searching through different sources.";
   document.getElementById("content-image").src = "img/politics.jpg";
 }
+
+function incorrect1() {
+  document.getElementById("status1").src = "img/wrong.png";
+  document.getElementById("reason").innerHTML =
+    "Your response is incorrect, try again!";
+}
+
+function correct1() {
+  document.getElementById("status1").src = "img/correct.png";
+  document.getElementById("reason").innerHTML = "Great Job! That is correct.";
+}

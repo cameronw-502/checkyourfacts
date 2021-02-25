@@ -182,15 +182,16 @@ body {
 /* 2/3 column */
 .column-66 {
   float: left;
-  width: 66.66666%;
+  width: 50%;
   padding: 20px;
 }
 
 /* 1/3 column */
 .column-33 {
   float: left;
-  width: 33.33333%;
+  width: 50%;
   padding: 20px;
+  background-color: #1178d8;
 }
 
 /* Add responsiveness - make the columns appear on top of each other instead of next to each other on small screens */
@@ -322,4 +323,38 @@ body {
 .folder:hover {
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
     0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* ------ Quiz ------- */
+
+.question-header {
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+.status {
+  float: left;
+  margin-top: 25px;
+  margin-right: 10px;
+}
+
+.question-button {
+  background-color: #4caf50; /* Green background */
+  border: 1px solid green; /* Green border */
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  width: 75%; /* Set a width if needed */
+  display: block; /* Make the buttons appear below each other */
+  margin-left: 15%;
+  margin-right: 14%;
+  margin-top: 6px;
+}
+
+.question-button-container {
+  align-content: center;
+}
+
+.reason {
+  text-align: center;
 }
