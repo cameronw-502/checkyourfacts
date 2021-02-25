@@ -364,3 +364,11 @@ body {
   text-align: center;
   margin-left: 15px;
 }
+
+/* ----- Media Queries ----- */
+
+@media screen and (max-width: 1080px) {
+  .content-right-pane {
+    visibility: hidden;
+  }
+}
