@@ -72,7 +72,8 @@ p {
   font-size: 250%;
   font-family: "Bebas Neue", cursive;
   color: #eee5e9;
-  transform: translate(0%, 61%);
+  width: 95%;
+  /* transform: translate(0%, 61%); */
 }
 
 .info {
@@ -248,8 +249,8 @@ body {
   margin-left: 15%;
   background-color: bisque;
   border-style: none;
-  height: 5%;
-  width: 160px;
+  height: 8%;
+  width: 200px;
   align-content: center;
   cursor: pointer;
 }
@@ -266,8 +267,8 @@ body {
   margin-left: 5%;
   background-color: bisque;
   border-style: none;
-  height: 5%;
-  width: 125px;
+  height: 8%;
+  width: 200px;
   align-content: center;
   cursor: pointer;
 }
@@ -298,14 +299,15 @@ body {
 }
 
 .content-pane {
-  width: 40%;
+  margin-top: 25px;
+  width: 70%;
   height: 92%;
   float: left;
 }
 
 .content-right-pane {
   float: left;
-  width: 35%;
+  width: 0%;
   height: 92%;
   align-items: center;
 }
@@ -314,11 +316,12 @@ body {
   width: 30px;
   height: 30px;
   float: left;
+  margin-top: 5%;
 }
 
 .folder-text {
   float: left;
-  font-size: 10px;
+  font-size: 16px;
   margin-left: 10px;
 }
 
@@ -381,7 +384,7 @@ body {
   }
   .quiz-header {
     width: 100%;
-    float: left;
+    float: right;
     margin-bottom: 5%;
   }
 }
@@ -434,7 +437,8 @@ body {
   .content-pane {
     margin-top: 25%;
     float: left;
-    width: 60%;
+    width: 100%;
+    margin-left: -25px;
   }
   .content-right-pane {
     width: 0px;

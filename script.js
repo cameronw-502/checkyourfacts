@@ -42,7 +42,7 @@ function career() {
 function perception() {
   document.getElementById("title").innerHTML = "Perception";
   document.getElementById("content").innerHTML =
-    "How you percieve a topic can be based off of the information you have been given and the tone or words used to explain the information to you. It is important to do as much research as possible and find information from other sources.";
+    "How you perceive a topic can be based off of the information you have been given and the tone or words used to explain the information to you. It is important to do as much research as possible and find information from other sources.";
   document.getElementById("content-image").src = "img/perception.jpg";
 }
 
